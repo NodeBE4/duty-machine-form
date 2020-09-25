@@ -1,5 +1,7 @@
 
-import { Octokit } from '@octokit/rest'
+const { Octokit } = require("@octokit/rest")
+
+require('dotenv').config()
 
 let TOKEN = process.env.TOKEN
 let REPOSITORY = process.env.REPOSITORY
